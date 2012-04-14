@@ -1,7 +1,7 @@
 <?php
 	class MySQLdBO{
 		var $connection;
-		public function connect($user="root", $password='hola123'){
+		public function connect($user="root", $password=null){
 			$this->connection = mysql_connect("localhost",$user,$password);
 			if (!$conexion){
 				return false;
