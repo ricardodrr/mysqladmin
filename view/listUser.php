@@ -1,4 +1,5 @@
-<table border="1">
+<h3>Lista de usuarios existentes en el sistema.<h3>
+<table border="0">
     <tr>
         <th>Usuario</th>
         <th>Host</th>

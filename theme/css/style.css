@@ -11,14 +11,14 @@ padding: 0;
 }
 
 .maincontent{
-margin-left:auto;
-padding:10px
+margin-left:300;
+padding:10px 20px;
 }
 
 .dbcolumn{
 float:left;
-width:250px;
-padding:5px;
+width:290px;
+padding:10px 20px 10px 5px;
 }
 
 
@@ -113,6 +113,32 @@ form{
 padding:15px;
 font-weight:bold;
 
+}
+
+th {
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #D8D8D8;
+    color: #555555;
+    font-weight: bold;
+    padding: 6px 3px;
+    text-align: left;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+table {
+    border: 1px solid #CACACA;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-bottom: 1px solid #EEEEEE;
+    color: #484848;
+    padding: 7px 3px;
+    vertical-align: middle;
 }
 
 
