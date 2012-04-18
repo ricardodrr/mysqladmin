@@ -1,0 +1,89 @@
+<HTML> 
+<HEAD> 
+	<div align="center">
+	<h1>Pagina Principal</h1>
+	</div>
+<TITLE>Menu principal
+</TITLE> 
+</HEAD> 
+<BODY bgcolor = "000000" text = "FFFFFF"  background="adidas.png"> 
+	<div align="center">
+	
+<br>
+<br>	
+<FORM method= "get" name="add_DB"	action= "resp01TRON.php" > <!--Comentario en HTML -->
+<TABLE BORDER=0>
+	
+<TR>
+	<TD>
+	<INPUT type="submit" value="Crear Respaldo">
+	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+<FORM method= "get" name="update_DB"	action= "ejemplo1TRON.php" >
+<TABLE BORDER=0>
+	
+<TR>
+	<TD>
+		<INPUT type="submit"  value="Cargar Respaldo">
+	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+<FORM method= "get" name="restore_DB"	action= "listar01.php" >
+<TABLE BORDER=0>
+	
+<TR>
+	<TD>
+	<INPUT type="submit"  value="Restaurar Base de Datos">
+	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+<FORM method= "get" name="nueva_DB"	action= "nueva.php" >
+<TABLE BORDER=0>
+	
+<TR>
+	<TD>
+		<INPUT type="submit"  value="Crear Nueva Base de Datos">
+	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+<FORM method= "get" name="delete"	action= "listar02.php" > <!--Comentario en HTML -->
+<TABLE BORDER=0>
+	
+<TR>
+	<TD>
+	<INPUT type="submit" value="Borrar base de datos existente">
+	</TD>
+</TR>
+</TABLE>
+</FORM>
+
+	
+	<script languaje="JavaScript">
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado")
+var montharray=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+document.write("<small><font color='FFFFFF' face='Arial'>"+dayarray[day]+" "+daym+" de "+montharray[month]+" de "+year+"</font></small>")
+
+</script>
+</div>	
+	
+</BODY> 
+</HTML>
